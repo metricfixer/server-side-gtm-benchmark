@@ -8,7 +8,7 @@ idna==3.17
 jsonschema==4.26.0
 jsonschema-specifications==2025.9.1
 multidict==6.7.1
-pillow==12.2.0
+pillow==12.3.0
 playwright==1.57.0
 propcache==0.5.2
 pyee==13.0.1
