@@ -46,7 +46,7 @@
   "frozen_files": {
     "data/raw/benchmark_raw.json": "9c4ab487ce579883897a7800bac62d9751967a99d7337eae1a58678e2f722849",
     "data/processed/benchmark_summary.json": "7b06642dd684e2eea7bc0847887827bbcabdaaff56335873dacc684d9f8dbdac",
-    "data/processed/benchmark_medians.csv": "5c7595f6222cb621a221cfaefccf24a9856049085f5a476ccd42dfafcdd04986",
+    "data/processed/benchmark_medians.csv": "6e832e22fa599d2f9d23cf0e01b020a010fa5be3717c87d396e0b2574ec2a0f9",
     "docs/original-runner-v1.0.0.py": "57e793917de87d17b7fa2873d354231842d65157c304a26138df5978b092c07c"
   },
   "original_environment": {
@@ -67,7 +67,7 @@
     ]
   },
   "article": {
-    "title": "Server-Side GTM Benchmarked: What It Really Improves—and What It Does Not",
+    "title": "Server-Side GTM Benchmarked: What It Really Improves\u2014and What It Does Not",
     "url": "https://metricfixer.com/publications/analytics-conversion-tracking/server-side-gtm-real-gains-marketing-myths-benchmark"
   }
 }
