@@ -6,7 +6,7 @@ This repository contains the code, raw data, processed results, methodology, and
 [Server-Side GTM Benchmarked: What It Really Improves—and What It Does Not](https://metricfixer.com/publications/analytics-conversion-tracking/server-side-gtm-real-gains-marketing-myths-benchmark)
 
 **Frozen release used by the article:**  
-[v1.0.0 benchmark release](https://github.com/metricfixerSupportServices/server-side-gtm-benchmark/releases/tag/v1.0.0)
+[v1.0.0 benchmark release](https://github.com/metricfixer/server-side-gtm-benchmark/releases/tag/v1.0.0)
 
 > This is a synthetic architecture benchmark. It does not send data to live Google Analytics, Google Ads, Meta, affiliate, CRM, or other production vendor endpoints.
 

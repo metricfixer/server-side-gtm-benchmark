@@ -7,8 +7,8 @@ authors:
     website: "https://metricfixer.com/"
 version: 1.0.0
 date-released: 2026-08-04
-url: "https://github.com/metricfixerSupportServices/server-side-gtm-benchmark"
-repository-code: "https://github.com/metricfixerSupportServices/server-side-gtm-benchmark"
+url: "https://github.com/metricfixer/server-side-gtm-benchmark"
+repository-code: "https://github.com/metricfixer/server-side-gtm-benchmark"
 license: MIT
 keywords:
   - server-side GTM

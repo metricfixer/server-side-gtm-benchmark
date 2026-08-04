@@ -24,7 +24,7 @@ dev = [
 
 [project.urls]
 Homepage = "https://metricfixer.com/"
-Repository = "https://github.com/metricfixerSupportServices/server-side-gtm-benchmark"
+Repository = "https://github.com/metricfixer/server-side-gtm-benchmark"
 Publication = "https://metricfixer.com/publications/analytics-conversion-tracking/server-side-gtm-real-gains-marketing-myths-benchmark"
 
 [tool.setuptools]

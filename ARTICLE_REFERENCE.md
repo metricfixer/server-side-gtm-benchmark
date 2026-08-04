@@ -8,10 +8,10 @@ Canonical article:
 https://metricfixer.com/publications/analytics-conversion-tracking/server-side-gtm-real-gains-marketing-myths-benchmark
 
 Repository:  
-https://github.com/metricfixerSupportServices/server-side-gtm-benchmark
+https://github.com/metricfixer/server-side-gtm-benchmark
 
 Benchmark release used by the article:  
-https://github.com/metricfixerSupportServices/server-side-gtm-benchmark/releases/tag/v1.0.0
+https://github.com/metricfixer/server-side-gtm-benchmark/releases/tag/v1.0.0
 
 Benchmark run date: 31 July 2026  
 Repository package date: 4 August 2026

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/metricfixerSupportServices/server-side-gtm-benchmark/raw/main/data/schema/benchmark-summary.schema.json",
+  "$id": "https://github.com/metricfixer/server-side-gtm-benchmark/raw/main/data/schema/benchmark-summary.schema.json",
   "title": "Metricfixer sGTM benchmark summary",
   "type": "object",
   "additionalProperties": false,

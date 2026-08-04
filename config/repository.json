@@ -1,10 +1,10 @@
 {
   "organization": "metricfixer",
   "repository": "server-side-gtm-benchmark",
-  "repository_url": "https://github.com/metricfixerSupportServices/server-side-gtm-benchmark",
+  "repository_url": "https://github.com/metricfixer/server-side-gtm-benchmark",
   "article_url": "https://metricfixer.com/publications/analytics-conversion-tracking/server-side-gtm-real-gains-marketing-myths-benchmark",
   "release": "v1.0.0",
-  "release_url": "https://github.com/metricfixerSupportServices/server-side-gtm-benchmark/releases/tag/v1.0.0",
+  "release_url": "https://github.com/metricfixer/server-side-gtm-benchmark/releases/tag/v1.0.0",
   "description": "Reproducible web GTM vs server-side GTM benchmark with raw data, a Playwright runner, performance metrics, methodology, and documented limitations.",
   "topics": [
     "server-side-gtm",

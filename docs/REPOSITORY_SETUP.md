@@ -20,7 +20,7 @@ git init
 git branch -M main
 git add .
 git commit -m "Publish Metricfixer web GTM vs sGTM benchmark v1.0.0"
-git remote add origin https://github.com/metricfixerSupportServices/server-side-gtm-benchmark.git
+git remote add origin https://github.com/metricfixer/server-side-gtm-benchmark.git
 git push -u origin main
 ```
 
