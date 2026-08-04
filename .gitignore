@@ -21,3 +21,5 @@ dist/SHA256SUMS.txt
 dist/
 __pycache__/
 *.pyc
+
+release-failure*.txt
