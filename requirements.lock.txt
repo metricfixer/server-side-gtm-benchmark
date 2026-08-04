@@ -9,7 +9,7 @@ jsonschema==4.26.0
 jsonschema-specifications==2025.9.1
 multidict==6.7.1
 pillow==12.2.0
-playwright==1.57.0
+playwright==1.62.0
 propcache==0.5.2
 pyee==13.0.1
 PyYAML==6.0.3
