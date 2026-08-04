@@ -1,0 +1,435 @@
+{
+  "runs_per_variant": 15,
+  "variants": {
+    "control": {
+      "n": 15,
+      "dcl": {
+        "median": 207.59999999997672,
+        "p75": 215.60000000003492,
+        "min": 189.09999999997672,
+        "max": 222.69999999995343
+      },
+      "load": {
+        "median": 1470.5,
+        "p75": 1471.7500000000582,
+        "min": 1457.0,
+        "max": 1473.2999999999302
+      },
+      "responseEnd": {
+        "median": 169.90000000002328,
+        "p75": 170.20000000006985,
+        "min": 168.19999999995343,
+        "max": 173.59999999997672
+      },
+      "lcp": {
+        "median": 1480.0,
+        "p75": 1484.0,
+        "min": 1468.0,
+        "max": 1488.0
+      },
+      "cls": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "longTaskCount": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "longTaskDuration": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "tbt": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "interactionDelay": {
+        "median": 8.70000000006985,
+        "p75": 9.349999999976717,
+        "min": 6.200000000069849,
+        "max": 10.100000000093132
+      },
+      "wall_ms": {
+        "median": 3908.304226000041,
+        "p75": 3926.3664079999785,
+        "min": 3891.0949440000877,
+        "max": 3961.424741999963
+      },
+      "request_count": {
+        "median": 2.0,
+        "p75": 2.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "transfer_bytes": {
+        "median": 230292.0,
+        "p75": 230293.0,
+        "min": 230292.0,
+        "max": 230293.0
+      },
+      "js_request_count": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "js_transfer_bytes": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "server_browser_event_requests": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "logical_destination_deliveries": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "errors": 0,
+      "failed_requests": 0
+    },
+    "web_gtm": {
+      "n": 15,
+      "dcl": {
+        "median": 207.0,
+        "p75": 213.59999999997672,
+        "min": 184.19999999995343,
+        "max": 237.59999999997672
+      },
+      "load": {
+        "median": 2222.4000000000233,
+        "p75": 2228.3000000000466,
+        "min": 2213.0999999999767,
+        "max": 2236.5999999999767
+      },
+      "responseEnd": {
+        "median": 169.80000000004657,
+        "p75": 170.55000000004657,
+        "min": 167.79999999993015,
+        "max": 175.59999999997672
+      },
+      "lcp": {
+        "median": 2232.0,
+        "p75": 2242.0,
+        "min": 2224.0,
+        "max": 2252.0
+      },
+      "cls": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "longTaskCount": {
+        "median": 4.0,
+        "p75": 4.0,
+        "min": 4.0,
+        "max": 4.0
+      },
+      "longTaskDuration": {
+        "median": 453.0,
+        "p75": 468.0,
+        "min": 430.0,
+        "max": 498.0
+      },
+      "tbt": {
+        "median": 253.0,
+        "p75": 268.0,
+        "min": 230.0,
+        "max": 298.0
+      },
+      "interactionDelay": {
+        "median": 9.0,
+        "p75": 9.450000000011642,
+        "min": 6.900000000023283,
+        "max": 10.699999999953434
+      },
+      "wall_ms": {
+        "median": 4662.4329500000385,
+        "p75": 4681.842279000022,
+        "min": 4643.980682999995,
+        "max": 4709.508661999962
+      },
+      "request_count": {
+        "median": 11.0,
+        "p75": 11.0,
+        "min": 11.0,
+        "max": 12.0
+      },
+      "transfer_bytes": {
+        "median": 374533.0,
+        "p75": 374548.0,
+        "min": 374533.0,
+        "max": 374707.0
+      },
+      "js_request_count": {
+        "median": 5.0,
+        "p75": 5.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "js_transfer_bytes": {
+        "median": 143648.0,
+        "p75": 143661.0,
+        "min": 143648.0,
+        "max": 143661.0
+      },
+      "server_browser_event_requests": {
+        "median": 4.0,
+        "p75": 4.0,
+        "min": 4.0,
+        "max": 4.0
+      },
+      "logical_destination_deliveries": {
+        "median": 4.0,
+        "p75": 4.0,
+        "min": 4.0,
+        "max": 4.0
+      },
+      "errors": 0,
+      "failed_requests": 0
+    },
+    "sgtm_proxy_only": {
+      "n": 15,
+      "dcl": {
+        "median": 200.10000000009313,
+        "p75": 207.34999999997672,
+        "min": 185.30000000004657,
+        "max": 216.60000000009313
+      },
+      "load": {
+        "median": 2222.5,
+        "p75": 2228.250000000058,
+        "min": 2214.6999999999534,
+        "max": 2231.100000000093
+      },
+      "responseEnd": {
+        "median": 170.10000000009313,
+        "p75": 170.45000000001164,
+        "min": 168.39999999990687,
+        "max": 170.80000000004657
+      },
+      "lcp": {
+        "median": 2236.0,
+        "p75": 2246.0,
+        "min": 2228.0,
+        "max": 2248.0
+      },
+      "cls": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "longTaskCount": {
+        "median": 4.0,
+        "p75": 4.0,
+        "min": 4.0,
+        "max": 4.0
+      },
+      "longTaskDuration": {
+        "median": 465.0,
+        "p75": 472.0,
+        "min": 438.0,
+        "max": 486.0
+      },
+      "tbt": {
+        "median": 265.0,
+        "p75": 272.0,
+        "min": 238.0,
+        "max": 286.0
+      },
+      "interactionDelay": {
+        "median": 9.099999999976717,
+        "p75": 9.75,
+        "min": 5.0,
+        "max": 10.0
+      },
+      "wall_ms": {
+        "median": 4662.330668000095,
+        "p75": 4669.883368000001,
+        "min": 4647.357854000006,
+        "max": 4734.794097999952
+      },
+      "request_count": {
+        "median": 11.0,
+        "p75": 11.0,
+        "min": 11.0,
+        "max": 11.0
+      },
+      "transfer_bytes": {
+        "median": 374603.0,
+        "p75": 374618.0,
+        "min": 374603.0,
+        "max": 374618.0
+      },
+      "js_request_count": {
+        "median": 5.0,
+        "p75": 5.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "js_transfer_bytes": {
+        "median": 143703.0,
+        "p75": 143716.0,
+        "min": 143703.0,
+        "max": 143716.0
+      },
+      "server_browser_event_requests": {
+        "median": 4.0,
+        "p75": 4.0,
+        "min": 4.0,
+        "max": 4.0
+      },
+      "logical_destination_deliveries": {
+        "median": 4.0,
+        "p75": 4.0,
+        "min": 4.0,
+        "max": 4.0
+      },
+      "errors": 0,
+      "failed_requests": 0
+    },
+    "sgtm_consolidated": {
+      "n": 15,
+      "dcl": {
+        "median": 206.0,
+        "p75": 210.0,
+        "min": 182.40000000002328,
+        "max": 243.90000000002328
+      },
+      "load": {
+        "median": 1567.1999999999534,
+        "p75": 1568.9000000000233,
+        "min": 1560.1999999999534,
+        "max": 1589.5
+      },
+      "responseEnd": {
+        "median": 170.09999999997672,
+        "p75": 170.45000000001164,
+        "min": 167.40000000002328,
+        "max": 174.90000000002328
+      },
+      "lcp": {
+        "median": 1576.0,
+        "p75": 1582.0,
+        "min": 1572.0,
+        "max": 1600.0
+      },
+      "cls": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "longTaskCount": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "longTaskDuration": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "tbt": {
+        "median": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "interactionDelay": {
+        "median": 8.29999999993015,
+        "p75": 9.350000000034925,
+        "min": 6.900000000023283,
+        "max": 10.800000000046566
+      },
+      "wall_ms": {
+        "median": 4004.8717390000093,
+        "p75": 4014.65553700001,
+        "min": 3987.4030869999615,
+        "max": 4036.6408809999257
+      },
+      "request_count": {
+        "median": 4.0,
+        "p75": 4.0,
+        "min": 4.0,
+        "max": 4.0
+      },
+      "transfer_bytes": {
+        "median": 247280.0,
+        "p75": 247285.0,
+        "min": 247280.0,
+        "max": 247285.0
+      },
+      "js_request_count": {
+        "median": 1.0,
+        "p75": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "js_transfer_bytes": {
+        "median": 16769.0,
+        "p75": 16772.0,
+        "min": 16769.0,
+        "max": 16772.0
+      },
+      "server_browser_event_requests": {
+        "median": 1.0,
+        "p75": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "logical_destination_deliveries": {
+        "median": 4.0,
+        "p75": 4.0,
+        "min": 4.0,
+        "max": 4.0
+      },
+      "errors": 0,
+      "failed_requests": 0
+    }
+  },
+  "comparisons": {
+    "request_count": {
+      "consolidated_vs_web_pct": -63.63636363636363,
+      "proxy_vs_web_pct": 0.0
+    },
+    "js_transfer_bytes": {
+      "consolidated_vs_web_pct": -88.32632546224103,
+      "proxy_vs_web_pct": 0.03828803742481622
+    },
+    "lcp": {
+      "consolidated_vs_web_pct": -29.39068100358423,
+      "proxy_vs_web_pct": 0.17921146953405018
+    },
+    "load": {
+      "consolidated_vs_web_pct": -29.48164146868534,
+      "proxy_vs_web_pct": 0.004499640027749995
+    },
+    "longTaskDuration": {
+      "consolidated_vs_web_pct": -100.0,
+      "proxy_vs_web_pct": 2.6490066225165565
+    },
+    "tbt": {
+      "consolidated_vs_web_pct": -100.0,
+      "proxy_vs_web_pct": 4.743083003952568
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/metricfixerSupportServices/server-side-gtm-benchmark/raw/main/data/schema/benchmark-summary.schema.json",
+  "title": "Metricfixer sGTM benchmark summary",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "runs_per_variant",
+    "variants",
+    "comparisons"
+  ],
+  "properties": {
+    "runs_per_variant": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "variants": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "control",
+        "web_gtm",
+        "sgtm_proxy_only",
+        "sgtm_consolidated"
+      ],
+      "properties": {
+        "control": {
+          "$ref": "#/$defs/variantSummary"
+        },
+        "web_gtm": {
+          "$ref": "#/$defs/variantSummary"
+        },
+        "sgtm_proxy_only": {
+          "$ref": "#/$defs/variantSummary"
+        },
+        "sgtm_consolidated": {
+          "$ref": "#/$defs/variantSummary"
+        }
+      }
+    },
+    "comparisons": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "request_count",
+        "js_transfer_bytes",
+        "lcp",
+        "load",
+        "longTaskDuration",
+        "tbt"
+      ],
+      "properties": {
+        "request_count": {
+          "$ref": "#/$defs/comparison"
+        },
+        "js_transfer_bytes": {
+          "$ref": "#/$defs/comparison"
+        },
+        "lcp": {
+          "$ref": "#/$defs/comparison"
+        },
+        "load": {
+          "$ref": "#/$defs/comparison"
+        },
+        "longTaskDuration": {
+          "$ref": "#/$defs/comparison"
+        },
+        "tbt": {
+          "$ref": "#/$defs/comparison"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "stats": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "median",
+        "p75",
+        "min",
+        "max"
+      ],
+      "properties": {
+        "median": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "p75": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "min": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "max": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "variantSummary": {
+      "type": "object",
+      "required": [
+        "n",
+        "errors",
+        "failed_requests"
+      ],
+      "properties": {
+        "n": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "errors": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "failed_requests": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "dcl": {
+          "$ref": "#/$defs/stats"
+        },
+        "load": {
+          "$ref": "#/$defs/stats"
+        },
+        "responseEnd": {
+          "$ref": "#/$defs/stats"
+        },
+        "lcp": {
+          "$ref": "#/$defs/stats"
+        },
+        "cls": {
+          "$ref": "#/$defs/stats"
+        },
+        "longTaskCount": {
+          "$ref": "#/$defs/stats"
+        },
+        "longTaskDuration": {
+          "$ref": "#/$defs/stats"
+        },
+        "tbt": {
+          "$ref": "#/$defs/stats"
+        },
+        "interactionDelay": {
+          "$ref": "#/$defs/stats"
+        },
+        "wall_ms": {
+          "$ref": "#/$defs/stats"
+        },
+        "request_count": {
+          "$ref": "#/$defs/stats"
+        },
+        "transfer_bytes": {
+          "$ref": "#/$defs/stats"
+        },
+        "js_request_count": {
+          "$ref": "#/$defs/stats"
+        },
+        "js_transfer_bytes": {
+          "$ref": "#/$defs/stats"
+        },
+        "server_browser_event_requests": {
+          "$ref": "#/$defs/stats"
+        },
+        "logical_destination_deliveries": {
+          "$ref": "#/$defs/stats"
+        }
+      },
+      "additionalProperties": false
+    },
+    "comparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "consolidated_vs_web_pct",
+        "proxy_vs_web_pct"
+      ],
+      "properties": {
+        "consolidated_vs_web_pct": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "proxy_vs_web_pct": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

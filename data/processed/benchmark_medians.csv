@@ -1,0 +1,12 @@
+metric,unit,control,web_gtm,sgtm_proxy_only,sgtm_consolidated
+Browser requests,,2.0,11.0,11.0,4.0
+Total transfer,bytes,230292.0,374533.0,374603.0,247280.0
+JavaScript requests,,0.0,5.0,5.0,1.0
+JavaScript transfer,bytes,0.0,143648.0,143703.0,16769.0
+Largest Contentful Paint,ms,1480.0,2232.0,2236.0,1576.0
+Load event,ms,1470.5,2222.4000000000233,2222.5,1567.1999999999534
+Long tasks,,0.0,4.0,4.0,0.0
+Long-task duration,ms,0.0,453.0,465.0,0.0
+Total Blocking Time,ms,0.0,253.0,265.0,0.0
+Browser event requests,,0.0,4.0,4.0,1.0
+Logical destination deliveries,,0.0,4.0,4.0,4.0

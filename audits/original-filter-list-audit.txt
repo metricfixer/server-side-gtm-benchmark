@@ -1,0 +1,24 @@
+Filter-list audit date: 2026-07-31
+
+AdGuard first-party tracking-server list:
+https://github.com/AdguardTeam/AdguardFilters/blob/master/SpywareFilter/sections/tracking_servers_firstparty.txt
+
+Snapshot results:
+- Total lines: 3,594
+- Active non-comment blocking rules: 3,550
+- Exact hostname-label prefixes:
+  - sgtm.: 43
+  - gtm.: 41
+  - metrics.: 50
+  - analytics.: 232
+  - collect.: 14
+  - tracking.: 80
+  - tagging.: 56
+
+EasyPrivacy review:
+https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_general.txt
+
+The reviewed snapshot contained an explicit "Server-side GTM" section with 22 active rules targeting recognizable scripts, container IDs, paths, query parameters, and common hosted implementations.
+
+Interpretation:
+These counts demonstrate that first-party and sGTM-specific blocking exists. They do not estimate blocker adoption, affected-user share, or a universal event-recovery percentage.

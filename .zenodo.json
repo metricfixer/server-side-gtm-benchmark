@@ -1,0 +1,30 @@
+{
+  "title": "Web GTM vs Server-Side GTM: Reproducible Benchmark",
+  "description": "Source code, frozen raw data, processed results, methodology, and limitations for a controlled synthetic benchmark comparing a browser-heavy web GTM-style architecture with proxy-only and consolidated server-side GTM patterns.",
+  "upload_type": "software",
+  "publication_date": "2026-08-04",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Metricfixer"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "server-side GTM",
+    "Google Tag Manager",
+    "server-side tagging",
+    "web performance",
+    "conversion tracking",
+    "Playwright",
+    "benchmark"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://metricfixer.com/publications/analytics-conversion-tracking/server-side-gtm-real-gains-marketing-myths-benchmark",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "access_right": "open"
+}

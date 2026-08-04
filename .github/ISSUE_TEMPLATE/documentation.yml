@@ -1,0 +1,23 @@
+name: Documentation correction
+about: Report an unclear, unsupported, outdated, or inconsistent statement.
+title: "[Docs] "
+labels: [documentation]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: File and section
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: support
+    attributes:
+      label: Proposed correction and supporting evidence
+    validations:
+      required: true

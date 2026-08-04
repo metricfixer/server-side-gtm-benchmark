@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/metricfixerSupportServices/server-side-gtm-benchmark/raw/main/data/schema/benchmark-raw.schema.json",
+  "title": "Metricfixer sGTM benchmark raw runs",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "variant",
+      "iteration",
+      "rid",
+      "wall_ms",
+      "dcl",
+      "load",
+      "responseEnd",
+      "lcp",
+      "cls",
+      "longTaskCount",
+      "longTaskDuration",
+      "tbt",
+      "interactionDelay",
+      "errors",
+      "resourceEntries",
+      "request_count",
+      "failed_request_count",
+      "transfer_bytes",
+      "js_request_count",
+      "js_transfer_bytes",
+      "browser_event_request_count_cdp",
+      "server_browser_event_requests",
+      "logical_destination_deliveries",
+      "server_event_paths"
+    ],
+    "properties": {
+      "variant": {
+        "enum": [
+          "control",
+          "web_gtm",
+          "sgtm_proxy_only",
+          "sgtm_consolidated"
+        ]
+      },
+      "iteration": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "rid": {
+        "type": "string",
+        "minLength": 1
+      },
+      "wall_ms": {
+        "type": "number"
+      },
+      "cls": {
+        "type": "number"
+      },
+      "longTaskCount": {
+        "type": "number"
+      },
+      "longTaskDuration": {
+        "type": "number"
+      },
+      "tbt": {
+        "type": "number"
+      },
+      "request_count": {
+        "type": "number"
+      },
+      "failed_request_count": {
+        "type": "number"
+      },
+      "transfer_bytes": {
+        "type": "number"
+      },
+      "js_request_count": {
+        "type": "number"
+      },
+      "js_transfer_bytes": {
+        "type": "number"
+      },
+      "browser_event_request_count_cdp": {
+        "type": "number"
+      },
+      "server_browser_event_requests": {
+        "type": "number"
+      },
+      "logical_destination_deliveries": {
+        "type": "number"
+      },
+      "dcl": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "load": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "responseEnd": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "lcp": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "interactionDelay": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "errors": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "resourceEntries": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "transferSize",
+            "encodedBodySize",
+            "duration",
+            "initiatorType"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "transferSize": {
+              "type": "number"
+            },
+            "encodedBodySize": {
+              "type": "number"
+            },
+            "duration": {
+              "type": "number"
+            },
+            "initiatorType": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "server_event_paths": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

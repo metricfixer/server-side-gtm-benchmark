@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Four web GTM and server-side GTM benchmark architectures</title>
+<desc id="desc">Comparison of control, browser-heavy web GTM, proxy-only server-side GTM, and consolidated server-side GTM flows.</desc>
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="80" y="85" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" text-anchor="start" fill="#111827">Architecture, not the hostname, determines browser cost</text>
+<text x="80" y="125" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#475569">The fixture is identical in every run; only the measurement flow changes.</text>
+<rect x="70" y="190" width="305" height="570" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<circle cx="112" cy="238" r="25" fill="#1558B1"/>
+<text x="112" y="246" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#FFFFFF">1</text>
+<text x="148" y="247" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" text-anchor="start" fill="#111827">Control</text>
+<rect x="94" y="295" width="257" height="220" rx="16" fill="#E8EFF9"/>
+<text x="112" y="330" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#1558B1">BROWSER</text>
+<circle cx="114" cy="368" r="5" fill="#1558B1"/>
+<text x="130" y="375" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">Page + hero image</text>
+<circle cx="114" cy="420" r="5" fill="#1558B1"/>
+<text x="130" y="427" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">No measurement JavaScript</text>
+<circle cx="114" cy="472" r="5" fill="#1558B1"/>
+<text x="130" y="479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">0 event requests</text>
+<line x1="222.5" y1="532" x2="222.5" y2="595" stroke="#111827" stroke-width="3"/>
+<polygon points="214.5,588 230.5,588 222.5,604" fill="#111827"/>
+<rect x="94" y="620" width="257" height="72" rx="16" fill="#111827"/>
+<text x="222.5" y="664" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#FFFFFF">No measurement layer</text>
+<line x1="94" y1="718" x2="351" y2="718" stroke="#CBD5E1" stroke-width="2"/>
+<text x="222.5" y="765" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1558B1">2 browser requests</text>
+<text x="222.5" y="805" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#475569">0 logical deliveries</text>
+<rect x="455" y="190" width="305" height="570" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<circle cx="497" cy="238" r="25" fill="#1558B1"/>
+<text x="497" y="246" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#FFFFFF">2</text>
+<text x="533" y="247" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" text-anchor="start" fill="#111827">Web GTM-style</text>
+<rect x="479" y="295" width="257" height="220" rx="16" fill="#E8EFF9"/>
+<text x="497" y="330" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#1558B1">BROWSER</text>
+<circle cx="499" cy="368" r="5" fill="#1558B1"/>
+<text x="515" y="375" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">1 browser container</text>
+<circle cx="499" cy="420" r="5" fill="#1558B1"/>
+<text x="515" y="427" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">4 synthetic vendor libraries</text>
+<circle cx="499" cy="472" r="5" fill="#1558B1"/>
+<text x="515" y="479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">4 direct event requests</text>
+<line x1="607.5" y1="532" x2="607.5" y2="595" stroke="#111827" stroke-width="3"/>
+<polygon points="599.5,588 615.5,588 607.5,604" fill="#111827"/>
+<rect x="479" y="620" width="257" height="72" rx="16" fill="#111827"/>
+<text x="607.5" y="664" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#FFFFFF">Vendor endpoints</text>
+<line x1="479" y1="718" x2="736" y2="718" stroke="#CBD5E1" stroke-width="2"/>
+<text x="607.5" y="765" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1558B1">11 browser requests</text>
+<text x="607.5" y="805" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#475569">4 logical deliveries</text>
+<rect x="840" y="190" width="305" height="570" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<circle cx="882" cy="238" r="25" fill="#1558B1"/>
+<text x="882" y="246" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#FFFFFF">3</text>
+<text x="918" y="247" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" text-anchor="start" fill="#111827">sGTM proxy-only</text>
+<rect x="864" y="295" width="257" height="220" rx="16" fill="#E8EFF9"/>
+<text x="882" y="330" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#1558B1">BROWSER</text>
+<circle cx="884" cy="368" r="5" fill="#1558B1"/>
+<text x="900" y="375" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">Same 5 browser scripts</text>
+<circle cx="884" cy="420" r="5" fill="#1558B1"/>
+<text x="900" y="427" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">Same 4 browser events</text>
+<circle cx="884" cy="472" r="5" fill="#1558B1"/>
+<text x="900" y="479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">Only endpoint changes</text>
+<line x1="992.5" y1="532" x2="992.5" y2="595" stroke="#111827" stroke-width="3"/>
+<polygon points="984.5,588 1000.5,588 992.5,604" fill="#111827"/>
+<rect x="864" y="620" width="257" height="72" rx="16" fill="#111827"/>
+<text x="992.5" y="664" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#FFFFFF">First-party proxy</text>
+<line x1="864" y1="718" x2="1121" y2="718" stroke="#CBD5E1" stroke-width="2"/>
+<text x="992.5" y="765" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1558B1">11 browser requests</text>
+<text x="992.5" y="805" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#475569">4 logical deliveries</text>
+<rect x="1225" y="190" width="305" height="570" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<circle cx="1267" cy="238" r="25" fill="#1558B1"/>
+<text x="1267" y="246" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#FFFFFF">4</text>
+<text x="1303" y="247" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" text-anchor="start" fill="#111827">sGTM consolidated</text>
+<rect x="1249" y="295" width="257" height="220" rx="16" fill="#E8EFF9"/>
+<text x="1267" y="330" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#1558B1">BROWSER</text>
+<circle cx="1269" cy="368" r="5" fill="#1558B1"/>
+<text x="1285" y="375" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">1 small dispatcher</text>
+<circle cx="1269" cy="420" r="5" fill="#1558B1"/>
+<text x="1285" y="427" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">1 first-party event</text>
+<circle cx="1269" cy="472" r="5" fill="#1558B1"/>
+<text x="1285" y="479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#111827">Server fans out to 4 destinations</text>
+<line x1="1377.5" y1="532" x2="1377.5" y2="595" stroke="#111827" stroke-width="3"/>
+<polygon points="1369.5,588 1385.5,588 1377.5,604" fill="#111827"/>
+<rect x="1249" y="620" width="257" height="72" rx="16" fill="#111827"/>
+<text x="1377.5" y="664" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#FFFFFF">Server validation + fan-out</text>
+<line x1="1249" y1="718" x2="1506" y2="718" stroke="#CBD5E1" stroke-width="2"/>
+<text x="1377.5" y="765" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1558B1">4 browser requests</text>
+<text x="1377.5" y="805" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#475569">4 logical deliveries</text>
+<text x="80" y="840" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#475569">Synthetic benchmark • 15 cold loads per variant • Median values • No live vendor endpoints</text>
+</svg>

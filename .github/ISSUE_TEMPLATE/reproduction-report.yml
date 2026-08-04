@@ -1,0 +1,30 @@
+name: Independent reproduction report
+about: Share a rerun or extension with complete environment and evidence boundaries.
+title: "[Reproduction] "
+labels: [reproduction]
+body:
+  - type: input
+    id: release
+    attributes:
+      label: Repository release or commit
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Runtime and hardware environment
+      description: Include OS, machine/runner, Python, Playwright, browser, viewport, network, CPU throttle, and command.
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Artifact links and checksums
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Result and interpretation boundary
+    validations:
+      required: true

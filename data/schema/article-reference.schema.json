@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Metricfixer companion article reference",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "canonical_url",
+    "repository",
+    "benchmark_release",
+    "benchmark_run_date",
+    "repository_package_date"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "canonical_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "repository": {
+      "type": "string",
+      "format": "uri"
+    },
+    "benchmark_release": {
+      "type": "string"
+    },
+    "benchmark_run_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "repository_package_date": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

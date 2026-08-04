@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/metricfixerSupportServices/server-side-gtm-benchmark/raw/main/data/schema/benchmark-manifest.schema.json",
+  "title": "Frozen benchmark release manifest",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "benchmark_id",
+    "release",
+    "benchmark_run_date",
+    "runs_per_variant",
+    "total_runs",
+    "variants",
+    "synthetic_payloads",
+    "live_vendor_endpoints",
+    "fixture",
+    "source_archive",
+    "frozen_files",
+    "original_environment",
+    "article"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "benchmark_id": {
+      "const": "metricfixer-web-gtm-vs-sgtm"
+    },
+    "release": {
+      "type": "string"
+    },
+    "benchmark_run_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "repository_package_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "runs_per_variant": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "total_runs": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 4,
+      "maxItems": 4,
+      "uniqueItems": true
+    },
+    "synthetic_payloads": {
+      "type": "boolean"
+    },
+    "live_vendor_endpoints": {
+      "type": "boolean"
+    },
+    "personal_data_expected": {
+      "type": "boolean"
+    },
+    "fixture": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "source_archive": {
+      "type": "object",
+      "required": [
+        "name",
+        "sha256"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "frozen_files": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[a-f0-9]{64}$"
+      }
+    },
+    "original_environment": {
+      "type": "object"
+    },
+    "article": {
+      "type": "object",
+      "required": [
+        "title",
+        "url"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  }
+}

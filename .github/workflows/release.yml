@@ -1,0 +1,36 @@
+name: Build GitHub release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -r requirements.lock.txt
+      - run: python scripts/verify_results.py
+      - run: python scripts/verify_checksums.py
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/build_release.py
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh release create "$GITHUB_REF_NAME"
+          dist/server-side-gtm-benchmark-v*.zip
+          dist/server-side-gtm-benchmark-data-v*.zip
+          dist/SHA256SUMS.txt
+          --verify-tag
+          --title "$GITHUB_REF_NAME — Metricfixer Web GTM vs sGTM Benchmark"
+          --notes-file docs/RELEASE_NOTES_v1.0.0.md

@@ -1,0 +1,37 @@
+repository:
+  organization: metricfixer
+  name: server-side-gtm-benchmark
+  display_name: "Web GTM vs Server-Side GTM: Reproducible Benchmark"
+  description: "Reproducible web GTM vs server-side GTM benchmark with raw data, a Playwright runner, performance metrics, methodology, and documented limitations."
+  website: "https://metricfixer.com/publications/analytics-conversion-tracking/server-side-gtm-real-gains-marketing-myths-benchmark"
+  visibility: public
+  default_branch: main
+  topics:
+    - server-side-gtm
+    - sgtm
+    - google-tag-manager
+    - web-gtm
+    - server-side-tagging
+    - web-analytics
+    - conversion-tracking
+    - web-performance
+    - core-web-vitals
+    - playwright
+    - benchmark
+    - consent-mode
+settings:
+  issues: true
+  discussions: false
+  wiki: false
+  projects: false
+  vulnerability_reporting: true
+  release_immutability: true
+  branch_protection:
+    require_pull_request: true
+    require_status_checks:
+      - Validate baseline data
+      - Smoke benchmark
+    dismiss_stale_reviews: true
+    require_conversation_resolution: true
+    restrict_force_pushes: true
+    restrict_deletions: true

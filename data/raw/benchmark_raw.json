@@ -1,0 +1,4329 @@
+[
+  {
+    "variant": "web_gtm",
+    "iteration": 1,
+    "rid": "web_gtm-1-1f4857f8",
+    "wall_ms": 4681.724035999991,
+    "dcl": 237.59999999997672,
+    "load": 2233.6999999999534,
+    "responseEnd": 173.19999999995343,
+    "lcp": 2244,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 483,
+    "tbt": 283,
+    "interactionDelay": 8.400000000023283,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-1-1f4857f8&mode=direct",
+        "transferSize": 12691,
+        "encodedBodySize": 12391,
+        "duration": 277.79999999993015,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-1-1f4857f8",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2038.4000000000233,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-1-1f4857f8&mode=direct&vendor=1",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 947,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-1-1f4857f8&mode=direct&vendor=2",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 954.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-1-1f4857f8&mode=direct&vendor=3",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 961.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-1-1f4857f8&mode=direct&vendor=4",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 975.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-1-1f4857f8&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 182,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-1-1f4857f8&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 179.90000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-1-1f4857f8&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 174.19999999995343,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-1-1f4857f8&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 180.30000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/favicon.ico",
+        "transferSize": 314,
+        "encodedBodySize": 14,
+        "duration": 157.40000000002328,
+        "initiatorType": "other"
+      }
+    ],
+    "request_count": 12,
+    "failed_request_count": 0,
+    "transfer_bytes": 374707,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143648,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 1,
+    "rid": "sgtm_consolidated-1-2f199155",
+    "wall_ms": 4023.4923900000013,
+    "dcl": 202.59999999997672,
+    "load": 1561.2999999999302,
+    "responseEnd": 170.09999999997672,
+    "lcp": 1576,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 7,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-1-2f199155",
+        "transferSize": 16852,
+        "encodedBodySize": 16552,
+        "duration": 320,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-1-2f199155",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1375.0999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-1-2f199155",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 168.90000000002328,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247280,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16769,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 1,
+    "rid": "control-1-1f26f821",
+    "wall_ms": 3927.392906000023,
+    "dcl": 204.69999999995343,
+    "load": 1472.1999999999534,
+    "responseEnd": 169.40000000002328,
+    "lcp": 1484,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 8.600000000093132,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-1-1f26f821",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1284.4000000000233,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230292,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 1,
+    "rid": "sgtm_proxy_only-1-f21bb2ac",
+    "wall_ms": 4661.613049000039,
+    "dcl": 188.09999999997672,
+    "load": 2230.0999999999767,
+    "responseEnd": 170.40000000002328,
+    "lcp": 2248,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 459,
+    "tbt": 259,
+    "interactionDelay": 9.199999999953434,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-1-f21bb2ac&mode=proxy",
+        "transferSize": 12698,
+        "encodedBodySize": 12398,
+        "duration": 279.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-1-f21bb2ac",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2041.0999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-1-f21bb2ac&mode=proxy&vendor=1",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 952.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-1-f21bb2ac&mode=proxy&vendor=2",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 960.0999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-1-f21bb2ac&mode=proxy&vendor=3",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 966.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-1-f21bb2ac&mode=proxy&vendor=4",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 973.6999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-1-f21bb2ac&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 175.5,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-1-f21bb2ac&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 181.30000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-1-f21bb2ac&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 179.5,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-1-f21bb2ac&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 175.19999999995343,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374603,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143703,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 2,
+    "rid": "web_gtm-2-aa6317de",
+    "wall_ms": 4643.980682999995,
+    "dcl": 200.19999999995343,
+    "load": 2218.5999999999767,
+    "responseEnd": 169.19999999995343,
+    "lcp": 2232,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 453,
+    "tbt": 253,
+    "interactionDelay": 10.699999999953434,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-2-aa6317de&mode=direct",
+        "transferSize": 12691,
+        "encodedBodySize": 12391,
+        "duration": 275.80000000004657,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-2-aa6317de",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2036.0999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-2-aa6317de&mode=direct&vendor=1",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 952.8999999999069,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-2-aa6317de&mode=direct&vendor=2",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 960.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-2-aa6317de&mode=direct&vendor=3",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 966.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-2-aa6317de&mode=direct&vendor=4",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 973.1999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-2-aa6317de&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 166.20000000006985,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-2-aa6317de&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.79999999993015,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-2-aa6317de&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 163.60000000009313,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-2-aa6317de&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 173.19999999995343,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374533,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143648,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 2,
+    "rid": "sgtm_proxy_only-2-41552185",
+    "wall_ms": 4669.461095000088,
+    "dcl": 200.10000000009313,
+    "load": 2221.5,
+    "responseEnd": 169.60000000009313,
+    "lcp": 2236,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 444,
+    "tbt": 244,
+    "interactionDelay": 7.299999999930151,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-2-41552185&mode=proxy",
+        "transferSize": 12698,
+        "encodedBodySize": 12398,
+        "duration": 275.70000000006985,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-2-41552185",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2037.1000000000931,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-2-41552185&mode=proxy&vendor=1",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 953.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-2-41552185&mode=proxy&vendor=2",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 960.6000000000931,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-2-41552185&mode=proxy&vendor=3",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 967,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-2-41552185&mode=proxy&vendor=4",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 973.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-2-41552185&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.59999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-2-41552185&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 165.80000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-2-41552185&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 166.09999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-2-41552185&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 165,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374603,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143703,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 2,
+    "rid": "control-2-bda456ee",
+    "wall_ms": 3891.0949440000877,
+    "dcl": 200.40000000002328,
+    "load": 1463,
+    "responseEnd": 170.20000000006985,
+    "lcp": 1476,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 8.70000000006985,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-2-bda456ee",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1278.1999999999534,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230292,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 2,
+    "rid": "sgtm_consolidated-2-e5a16cdb",
+    "wall_ms": 3990.7911039999817,
+    "dcl": 187.90000000002328,
+    "load": 1561.5999999999767,
+    "responseEnd": 170.5,
+    "lcp": 1572,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 9.600000000093132,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-2-e5a16cdb",
+        "transferSize": 16852,
+        "encodedBodySize": 16552,
+        "duration": 318.80000000004657,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-2-e5a16cdb",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1374.5,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-2-e5a16cdb",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.60000000009313,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247280,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16769,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 3,
+    "rid": "sgtm_proxy_only-3-eff9150b",
+    "wall_ms": 4654.062269000065,
+    "dcl": 202.70000000006985,
+    "load": 2221.5999999999767,
+    "responseEnd": 170.5,
+    "lcp": 2236,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 477,
+    "tbt": 277,
+    "interactionDelay": 10,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-3-eff9150b&mode=proxy",
+        "transferSize": 12698,
+        "encodedBodySize": 12398,
+        "duration": 275.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-3-eff9150b",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2035.0999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-3-eff9150b&mode=proxy&vendor=1",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 952.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-3-eff9150b&mode=proxy&vendor=2",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 960.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-3-eff9150b&mode=proxy&vendor=3",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 966.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-3-eff9150b&mode=proxy&vendor=4",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 973.6999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-3-eff9150b&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 179.09999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-3-eff9150b&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 168.20000000006985,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-3-eff9150b&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.90000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-3-eff9150b&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 162.5,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374603,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143703,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 3,
+    "rid": "sgtm_consolidated-3-8ec35ab4",
+    "wall_ms": 3987.4030869999615,
+    "dcl": 199.09999999997672,
+    "load": 1562.2000000000698,
+    "responseEnd": 169.5,
+    "lcp": 1572,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 9.70000000006985,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-3-8ec35ab4",
+        "transferSize": 16852,
+        "encodedBodySize": 16552,
+        "duration": 322.19999999995343,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-3-8ec35ab4",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1378,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-3-8ec35ab4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 171.10000000009313,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247280,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16769,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 3,
+    "rid": "control-3-cbec9bbf",
+    "wall_ms": 3907.1383860000424,
+    "dcl": 213.80000000004657,
+    "load": 1471,
+    "responseEnd": 169.60000000009313,
+    "lcp": 1488,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 7.700000000069849,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-3-cbec9bbf",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1280.6999999999534,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230292,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 3,
+    "rid": "web_gtm-3-205c073f",
+    "wall_ms": 4658.6893899999495,
+    "dcl": 202.60000000009313,
+    "load": 2222.4000000000233,
+    "responseEnd": 170.60000000009313,
+    "lcp": 2232,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 442,
+    "tbt": 242,
+    "interactionDelay": 9.79999999993015,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-3-205c073f&mode=direct",
+        "transferSize": 12691,
+        "encodedBodySize": 12391,
+        "duration": 275.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-3-205c073f",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2037,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-3-205c073f&mode=direct&vendor=1",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 946.7000000000698,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-3-205c073f&mode=direct&vendor=2",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 953.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-3-205c073f&mode=direct&vendor=3",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 967.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-3-205c073f&mode=direct&vendor=4",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 975.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-3-205c073f&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 164.20000000006985,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-3-205c073f&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 174.19999999995343,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-3-205c073f&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 175.5,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-3-205c073f&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 174.80000000004657,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374533,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143648,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 4,
+    "rid": "web_gtm-4-012dbc22",
+    "wall_ms": 4660.110474000021,
+    "dcl": 187.09999999997672,
+    "load": 2222.6999999999534,
+    "responseEnd": 171,
+    "lcp": 2232,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 438,
+    "tbt": 238,
+    "interactionDelay": 9.5,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-4-012dbc22&mode=direct",
+        "transferSize": 12691,
+        "encodedBodySize": 12391,
+        "duration": 276.19999999995343,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-4-012dbc22",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2037.5999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-4-012dbc22&mode=direct&vendor=1",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 952.2000000000698,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-4-012dbc22&mode=direct&vendor=2",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 959.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-4-012dbc22&mode=direct&vendor=3",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 965.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-4-012dbc22&mode=direct&vendor=4",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 973,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-4-012dbc22&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 172.5,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-4-012dbc22&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 168.69999999995343,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-4-012dbc22&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 171.39999999990687,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-4-012dbc22&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 174.10000000009313,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374533,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143648,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 4,
+    "rid": "control-4-42633aad",
+    "wall_ms": 3906.0161400000197,
+    "dcl": 203.5,
+    "load": 1463.4000000000233,
+    "responseEnd": 169.80000000004657,
+    "lcp": 1472,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 8.800000000046566,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-4-42633aad",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1277.2999999999302,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230292,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 4,
+    "rid": "sgtm_proxy_only-4-f34ce3bc",
+    "wall_ms": 4656.80447200009,
+    "dcl": 211,
+    "load": 2228.9000000000233,
+    "responseEnd": 170.80000000004657,
+    "lcp": 2244,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 449,
+    "tbt": 249,
+    "interactionDelay": 9.900000000023283,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-4-f34ce3bc&mode=proxy",
+        "transferSize": 12698,
+        "encodedBodySize": 12398,
+        "duration": 279.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-4-f34ce3bc",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2038.8000000000466,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-4-f34ce3bc&mode=proxy&vendor=1",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 953.1999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-4-f34ce3bc&mode=proxy&vendor=2",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 960.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-4-f34ce3bc&mode=proxy&vendor=3",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 966.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-4-f34ce3bc&mode=proxy&vendor=4",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 972.2999999999302,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-4-f34ce3bc&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 178.09999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-4-f34ce3bc&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 173.90000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-4-f34ce3bc&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 166.30000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-4-f34ce3bc&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 166.69999999995343,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374603,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143703,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 4,
+    "rid": "sgtm_consolidated-4-be762eac",
+    "wall_ms": 3996.011425000006,
+    "dcl": 207.80000000004657,
+    "load": 1567.1999999999534,
+    "responseEnd": 174.80000000004657,
+    "lcp": 1580,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 9.900000000023283,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-4-be762eac",
+        "transferSize": 16852,
+        "encodedBodySize": 16552,
+        "duration": 318.79999999993015,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-4-be762eac",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1375.4000000000233,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-4-be762eac",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 178.30000000004657,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247280,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16769,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 5,
+    "rid": "sgtm_proxy_only-5-27440de4",
+    "wall_ms": 4670.206320000034,
+    "dcl": 202.40000000002328,
+    "load": 2221.5999999999767,
+    "responseEnd": 169.90000000002328,
+    "lcp": 2236,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 470,
+    "tbt": 270,
+    "interactionDelay": 8.099999999976717,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-5-27440de4&mode=proxy",
+        "transferSize": 12698,
+        "encodedBodySize": 12398,
+        "duration": 277.39999999990687,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-5-27440de4",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2037,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-5-27440de4&mode=proxy&vendor=1",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 952.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-5-27440de4&mode=proxy&vendor=2",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 960,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-5-27440de4&mode=proxy&vendor=3",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 967.0999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-5-27440de4&mode=proxy&vendor=4",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 974.2000000000698,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-5-27440de4&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.30000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-5-27440de4&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 173.59999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-5-27440de4&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 174.5,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-5-27440de4&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 175.80000000004657,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374603,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143703,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 5,
+    "rid": "web_gtm-5-2c35e5a1",
+    "wall_ms": 4681.960522000054,
+    "dcl": 214,
+    "load": 2236.5999999999767,
+    "responseEnd": 175.59999999997672,
+    "lcp": 2252,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 430,
+    "tbt": 230,
+    "interactionDelay": 9,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-5-2c35e5a1&mode=direct",
+        "transferSize": 12691,
+        "encodedBodySize": 12391,
+        "duration": 280.69999999995343,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-5-2c35e5a1",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2041.0999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-5-2c35e5a1&mode=direct&vendor=1",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 948.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-5-2c35e5a1&mode=direct&vendor=2",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 956.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-5-2c35e5a1&mode=direct&vendor=3",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 963.8000000000466,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-5-2c35e5a1&mode=direct&vendor=4",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 971.0999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-5-2c35e5a1&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 180.29999999993015,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-5-2c35e5a1&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 181.80000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-5-2c35e5a1&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 169.30000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-5-2c35e5a1&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 168.30000000004657,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374533,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143648,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 5,
+    "rid": "control-5-fc0c96c3",
+    "wall_ms": 3929.9673769999117,
+    "dcl": 222.40000000002328,
+    "load": 1459.4000000000233,
+    "responseEnd": 173.59999999997672,
+    "lcp": 1476,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 8.099999999976717,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-5-fc0c96c3",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1278.8000000000466,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230292,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 5,
+    "rid": "sgtm_consolidated-5-76fe6460",
+    "wall_ms": 4019.7737520001056,
+    "dcl": 223.09999999997672,
+    "load": 1574.6999999999534,
+    "responseEnd": 168,
+    "lcp": 1584,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 9.099999999976717,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-5-76fe6460",
+        "transferSize": 16852,
+        "encodedBodySize": 16552,
+        "duration": 320.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-5-76fe6460",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1375,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-5-76fe6460",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.19999999995343,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247280,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16769,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 6,
+    "rid": "sgtm_consolidated-6-4e62ca92",
+    "wall_ms": 4005.424294000022,
+    "dcl": 203.20000000006985,
+    "load": 1567.5999999999767,
+    "responseEnd": 174.90000000002328,
+    "lcp": 1576,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 8.400000000023283,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-6-4e62ca92",
+        "transferSize": 16852,
+        "encodedBodySize": 16552,
+        "duration": 321.0999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-6-4e62ca92",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1377.0999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-6-4e62ca92",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 164.09999999997672,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247280,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16769,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 6,
+    "rid": "sgtm_proxy_only-6-7c9d0f0e",
+    "wall_ms": 4658.048097999995,
+    "dcl": 192.90000000002328,
+    "load": 2229.5999999999767,
+    "responseEnd": 170.59999999997672,
+    "lcp": 2248,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 448,
+    "tbt": 248,
+    "interactionDelay": 9.699999999953434,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-6-7c9d0f0e&mode=proxy",
+        "transferSize": 12698,
+        "encodedBodySize": 12398,
+        "duration": 277.80000000004657,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-6-7c9d0f0e",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2038.0999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-6-7c9d0f0e&mode=proxy&vendor=1",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 946.0999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-6-7c9d0f0e&mode=proxy&vendor=2",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 953.2999999999302,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-6-7c9d0f0e&mode=proxy&vendor=3",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 967.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-6-7c9d0f0e&mode=proxy&vendor=4",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 974.8000000000466,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-6-7c9d0f0e&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 173.30000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-6-7c9d0f0e&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 163.30000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-6-7c9d0f0e&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 163.39999999990687,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-6-7c9d0f0e&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 164.30000000004657,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374603,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143703,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 6,
+    "rid": "control-6-84af975d",
+    "wall_ms": 3908.304226000041,
+    "dcl": 212.10000000009313,
+    "load": 1471.6000000000931,
+    "responseEnd": 170.20000000006985,
+    "lcp": 1484,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 9.800000000046566,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-6-84af975d",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1281.7000000000698,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230292,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 6,
+    "rid": "web_gtm-6-4dd50943",
+    "wall_ms": 4709.508661999962,
+    "dcl": 214.59999999997672,
+    "load": 2213.0999999999767,
+    "responseEnd": 170.39999999990687,
+    "lcp": 2224,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 436,
+    "tbt": 236,
+    "interactionDelay": 9.199999999953434,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-6-4dd50943&mode=direct",
+        "transferSize": 12691,
+        "encodedBodySize": 12391,
+        "duration": 275.29999999993015,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-6-4dd50943",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2034.5999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-6-4dd50943&mode=direct&vendor=1",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 951.6999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-6-4dd50943&mode=direct&vendor=2",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 959.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-6-4dd50943&mode=direct&vendor=3",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 966.2999999999302,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-6-4dd50943&mode=direct&vendor=4",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 973.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-6-4dd50943&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 172.40000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-6-4dd50943&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.20000000006985,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-6-4dd50943&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 166.69999999995343,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-6-4dd50943&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.59999999997672,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374533,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143648,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 7,
+    "rid": "sgtm_consolidated-7-45e47642",
+    "wall_ms": 4001.600929999995,
+    "dcl": 206,
+    "load": 1566,
+    "responseEnd": 167.40000000002328,
+    "lcp": 1584,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 7.599999999976717,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-7-45e47642",
+        "transferSize": 16852,
+        "encodedBodySize": 16552,
+        "duration": 321.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-7-45e47642",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1378.9000000000233,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-7-45e47642",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 175.59999999997672,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247280,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16769,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 7,
+    "rid": "control-7-b0256555",
+    "wall_ms": 3925.339909999934,
+    "dcl": 203.30000000004657,
+    "load": 1463.9000000000233,
+    "responseEnd": 169.80000000004657,
+    "lcp": 1472,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 7.199999999953434,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-7-b0256555",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1280.2999999999302,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230292,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 7,
+    "rid": "web_gtm-7-e02591e3",
+    "wall_ms": 4692.42610799995,
+    "dcl": 212.60000000009313,
+    "load": 2229.600000000093,
+    "responseEnd": 170,
+    "lcp": 2244,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 441,
+    "tbt": 241,
+    "interactionDelay": 8.5,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-7-e02591e3&mode=direct",
+        "transferSize": 12691,
+        "encodedBodySize": 12391,
+        "duration": 274.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-7-e02591e3",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2034.5,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-7-e02591e3&mode=direct&vendor=1",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 953.1999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-7-e02591e3&mode=direct&vendor=2",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 959.6999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-7-e02591e3&mode=direct&vendor=3",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 968,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-7-e02591e3&mode=direct&vendor=4",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 975.3000000000466,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-7-e02591e3&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.79999999993015,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-7-e02591e3&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 173,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-7-e02591e3&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.5,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-7-e02591e3&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 163.5,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374533,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143648,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 7,
+    "rid": "sgtm_proxy_only-7-4bc1cf69",
+    "wall_ms": 4662.330668000095,
+    "dcl": 216.60000000009313,
+    "load": 2227.3000000000466,
+    "responseEnd": 170.10000000009313,
+    "lcp": 2248,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 466,
+    "tbt": 266,
+    "interactionDelay": 8.899999999906868,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-7-4bc1cf69&mode=proxy",
+        "transferSize": 12698,
+        "encodedBodySize": 12398,
+        "duration": 276.69999999995343,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-7-4bc1cf69",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2035.3000000000466,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-7-4bc1cf69&mode=proxy&vendor=1",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 951.1999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-7-4bc1cf69&mode=proxy&vendor=2",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 959.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-7-4bc1cf69&mode=proxy&vendor=3",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 965.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-7-4bc1cf69&mode=proxy&vendor=4",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 972.0999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-7-4bc1cf69&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 177.5,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-7-4bc1cf69&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 181.09999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-7-4bc1cf69&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 178.59999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-7-4bc1cf69&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 161.29999999993015,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374603,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143703,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 8,
+    "rid": "control-8-2e0298bc",
+    "wall_ms": 3961.424741999963,
+    "dcl": 189.09999999997672,
+    "load": 1473.2999999999302,
+    "responseEnd": 170.19999999995343,
+    "lcp": 1480,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 8,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-8-2e0298bc",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1283.9000000000233,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230292,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 8,
+    "rid": "sgtm_proxy_only-8-d90dbb8e",
+    "wall_ms": 4672.143806000008,
+    "dcl": 185.30000000004657,
+    "load": 2222.4000000000233,
+    "responseEnd": 170,
+    "lcp": 2232,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 448,
+    "tbt": 248,
+    "interactionDelay": 5,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-8-d90dbb8e&mode=proxy",
+        "transferSize": 12698,
+        "encodedBodySize": 12398,
+        "duration": 276.19999999995343,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-8-d90dbb8e",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2037.4000000000233,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-8-d90dbb8e&mode=proxy&vendor=1",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 945.6000000000931,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-8-d90dbb8e&mode=proxy&vendor=2",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 959.7999999999302,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-8-d90dbb8e&mode=proxy&vendor=3",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 966.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-8-d90dbb8e&mode=proxy&vendor=4",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 972.1999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-8-d90dbb8e&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 163.70000000006985,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-8-d90dbb8e&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 175.09999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-8-d90dbb8e&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 175.30000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-8-d90dbb8e&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 173.5,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374603,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143703,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 8,
+    "rid": "sgtm_consolidated-8-a18ee996",
+    "wall_ms": 4004.8717390000093,
+    "dcl": 209.29999999993015,
+    "load": 1568.6999999999534,
+    "responseEnd": 170.09999999997672,
+    "lcp": 1580,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 7.5,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-8-a18ee996",
+        "transferSize": 16852,
+        "encodedBodySize": 16552,
+        "duration": 322.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-8-a18ee996",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1377,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-8-a18ee996",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 179.60000000009313,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247280,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16769,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 8,
+    "rid": "web_gtm-8-548a757d",
+    "wall_ms": 4662.4329500000385,
+    "dcl": 213.19999999995343,
+    "load": 2221.8000000000466,
+    "responseEnd": 169.80000000004657,
+    "lcp": 2232,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 460,
+    "tbt": 260,
+    "interactionDelay": 7,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-8-548a757d&mode=direct",
+        "transferSize": 12691,
+        "encodedBodySize": 12391,
+        "duration": 281.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-8-548a757d",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2043.1999999999534,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-8-548a757d&mode=direct&vendor=1",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 949.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-8-548a757d&mode=direct&vendor=2",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 956.0999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-8-548a757d&mode=direct&vendor=3",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 962.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-8-548a757d&mode=direct&vendor=4",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 969.8000000000466,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-8-548a757d&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.60000000009313,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-8-548a757d&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 174,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-8-548a757d&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 169,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-8-548a757d&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 165.90000000002328,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374533,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143648,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 9,
+    "rid": "sgtm_consolidated-9-56dc8d2f",
+    "wall_ms": 4003.0432949999977,
+    "dcl": 214.59999999997672,
+    "load": 1581.7999999999302,
+    "responseEnd": 169.5,
+    "lcp": 1592,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 10.800000000046566,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-9-56dc8d2f",
+        "transferSize": 16852,
+        "encodedBodySize": 16552,
+        "duration": 312.10000000009313,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-9-56dc8d2f",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1369.3000000000466,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-9-56dc8d2f",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.69999999995343,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247280,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16769,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 9,
+    "rid": "web_gtm-9-c6ba98f7",
+    "wall_ms": 4661.912783000048,
+    "dcl": 203.20000000006985,
+    "load": 2222,
+    "responseEnd": 169.5,
+    "lcp": 2236,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 447,
+    "tbt": 247,
+    "interactionDelay": 10.300000000046566,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-9-c6ba98f7&mode=direct",
+        "transferSize": 12691,
+        "encodedBodySize": 12391,
+        "duration": 274.89999999990687,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-9-c6ba98f7",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2034.3000000000466,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-9-c6ba98f7&mode=direct&vendor=1",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 953.7999999999302,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-9-c6ba98f7&mode=direct&vendor=2",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 960.2999999999302,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-9-c6ba98f7&mode=direct&vendor=3",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 967,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-9-c6ba98f7&mode=direct&vendor=4",
+        "transferSize": 32843,
+        "encodedBodySize": 32543,
+        "duration": 974.3000000000466,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-9-c6ba98f7&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 162.59999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-9-c6ba98f7&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 177.59999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-9-c6ba98f7&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 180.19999999995343,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-9-c6ba98f7&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 175,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374533,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143648,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 9,
+    "rid": "control-9-fc5db144",
+    "wall_ms": 3923.3865709999236,
+    "dcl": 218.80000000004657,
+    "load": 1470.5,
+    "responseEnd": 168.70000000006985,
+    "lcp": 1484,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 7.5,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-9-fc5db144",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1278.9000000000233,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230292,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 9,
+    "rid": "sgtm_proxy_only-9-eaab6d8b",
+    "wall_ms": 4669.5604159999675,
+    "dcl": 215.60000000009313,
+    "load": 2227.600000000093,
+    "responseEnd": 170.10000000009313,
+    "lcp": 2240,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 455,
+    "tbt": 255,
+    "interactionDelay": 9.900000000023283,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-9-eaab6d8b&mode=proxy",
+        "transferSize": 12698,
+        "encodedBodySize": 12398,
+        "duration": 275.30000000004657,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-9-eaab6d8b",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2035.5,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-9-eaab6d8b&mode=proxy&vendor=1",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 951.1999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-9-eaab6d8b&mode=proxy&vendor=2",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 959.3000000000466,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-9-eaab6d8b&mode=proxy&vendor=3",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 966.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-9-eaab6d8b&mode=proxy&vendor=4",
+        "transferSize": 32855,
+        "encodedBodySize": 32555,
+        "duration": 973.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-9-eaab6d8b&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 168.60000000009313,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-9-eaab6d8b&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 177.5,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-9-eaab6d8b&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 168.29999999993015,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-9-eaab6d8b&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.69999999995343,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374603,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143703,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 10,
+    "rid": "sgtm_consolidated-10-edfcee2b",
+    "wall_ms": 4008.3984319999217,
+    "dcl": 207.20000000006985,
+    "load": 1563.2000000000698,
+    "responseEnd": 169.90000000002328,
+    "lcp": 1572,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 7,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-10-edfcee2b",
+        "transferSize": 16855,
+        "encodedBodySize": 16555,
+        "duration": 317.30000000004657,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-10-edfcee2b",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1373.4000000000233,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-10-edfcee2b",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 169,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247285,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16772,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 10,
+    "rid": "web_gtm-10-33f61b6b",
+    "wall_ms": 4665.538522999896,
+    "dcl": 202.09999999997672,
+    "load": 2220.6999999999534,
+    "responseEnd": 169.5,
+    "lcp": 2232,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 478,
+    "tbt": 278,
+    "interactionDelay": 8.599999999976717,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-10-33f61b6b&mode=direct",
+        "transferSize": 12692,
+        "encodedBodySize": 12392,
+        "duration": 275,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-10-33f61b6b",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2035.5999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-10-33f61b6b&mode=direct&vendor=1",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 947.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-10-33f61b6b&mode=direct&vendor=2",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 954.8000000000466,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-10-33f61b6b&mode=direct&vendor=3",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 961.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-10-33f61b6b&mode=direct&vendor=4",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 970,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-10-33f61b6b&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 160.40000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-10-33f61b6b&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 161.29999999993015,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-10-33f61b6b&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 175.70000000006985,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-10-33f61b6b&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 161,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374548,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143661,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 10,
+    "rid": "control-10-40660a61",
+    "wall_ms": 3896.9550190000746,
+    "dcl": 200.69999999995343,
+    "load": 1463,
+    "responseEnd": 168.19999999995343,
+    "lcp": 1472,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 9.699999999953434,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-10-40660a61",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1278.4000000000233,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230293,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 10,
+    "rid": "sgtm_proxy_only-10-bb205da6",
+    "wall_ms": 4734.794097999952,
+    "dcl": 190.70000000006985,
+    "load": 2231.100000000093,
+    "responseEnd": 170,
+    "lcp": 2248,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 474,
+    "tbt": 274,
+    "interactionDelay": 8.70000000006985,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-10-bb205da6&mode=proxy",
+        "transferSize": 12699,
+        "encodedBodySize": 12399,
+        "duration": 278.20000000006985,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-10-bb205da6",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2040.1999999999534,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-10-bb205da6&mode=proxy&vendor=1",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 952.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-10-bb205da6&mode=proxy&vendor=2",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 959.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-10-bb205da6&mode=proxy&vendor=3",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 966.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-10-bb205da6&mode=proxy&vendor=4",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 974.1999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-10-bb205da6&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 176.39999999990687,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-10-bb205da6&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 169.09999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-10-bb205da6&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 168.40000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-10-bb205da6&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 181.70000000006985,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374618,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143716,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 11,
+    "rid": "control-11-8703e454",
+    "wall_ms": 3939.3447209999977,
+    "dcl": 217.40000000002328,
+    "load": 1471.9000000000233,
+    "responseEnd": 170.20000000006985,
+    "lcp": 1488,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 8.70000000006985,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-11-8703e454",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1281.0999999999767,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230293,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 11,
+    "rid": "sgtm_consolidated-11-9eb722bc",
+    "wall_ms": 4036.6408809999257,
+    "dcl": 243.90000000002328,
+    "load": 1589.5,
+    "responseEnd": 174,
+    "lcp": 1600,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 6.900000000023283,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-11-9eb722bc",
+        "transferSize": 16855,
+        "encodedBodySize": 16555,
+        "duration": 324.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-11-9eb722bc",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1380.4000000000233,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-11-9eb722bc",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.09999999997672,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247285,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16772,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 11,
+    "rid": "sgtm_proxy_only-11-64555521",
+    "wall_ms": 4647.357854000006,
+    "dcl": 215.19999999995343,
+    "load": 2214.6999999999534,
+    "responseEnd": 170.09999999997672,
+    "lcp": 2228,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 481,
+    "tbt": 281,
+    "interactionDelay": 8.099999999976717,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-11-64555521&mode=proxy",
+        "transferSize": 12699,
+        "encodedBodySize": 12399,
+        "duration": 274.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-11-64555521",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2036,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-11-64555521&mode=proxy&vendor=1",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 952.2000000000698,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-11-64555521&mode=proxy&vendor=2",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 959.3999999999069,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-11-64555521&mode=proxy&vendor=3",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 966.6999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-11-64555521&mode=proxy&vendor=4",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 974,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-11-64555521&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 173.39999999990687,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-11-64555521&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 169.09999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-11-64555521&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 178.40000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-11-64555521&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 175.5,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374618,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143716,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 11,
+    "rid": "web_gtm-11-c0ad6569",
+    "wall_ms": 4658.80933699998,
+    "dcl": 186.19999999995343,
+    "load": 2222,
+    "responseEnd": 170.5,
+    "lcp": 2232,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 498,
+    "tbt": 298,
+    "interactionDelay": 6.900000000023283,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-11-c0ad6569&mode=direct",
+        "transferSize": 12692,
+        "encodedBodySize": 12392,
+        "duration": 274.89999999990687,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-11-c0ad6569",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2035.4000000000233,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-11-c0ad6569&mode=direct&vendor=1",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 945.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-11-c0ad6569&mode=direct&vendor=2",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 960,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-11-c0ad6569&mode=direct&vendor=3",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 967.2000000000698,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-11-c0ad6569&mode=direct&vendor=4",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 974.3000000000466,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-11-c0ad6569&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 176.59999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-11-c0ad6569&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 160.80000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-11-c0ad6569&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 169.69999999995343,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-11-c0ad6569&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.5,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374548,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143661,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 12,
+    "rid": "sgtm_proxy_only-12-b12fc3dd",
+    "wall_ms": 4662.919396999996,
+    "dcl": 188,
+    "load": 2223,
+    "responseEnd": 170.19999999995343,
+    "lcp": 2236,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 438,
+    "tbt": 238,
+    "interactionDelay": 9.599999999976717,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-12-b12fc3dd&mode=proxy",
+        "transferSize": 12699,
+        "encodedBodySize": 12399,
+        "duration": 275.39999999990687,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-12-b12fc3dd",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2037,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-12-b12fc3dd&mode=proxy&vendor=1",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 946.1999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-12-b12fc3dd&mode=proxy&vendor=2",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 960.8999999999069,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-12-b12fc3dd&mode=proxy&vendor=3",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 967.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-12-b12fc3dd&mode=proxy&vendor=4",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 974.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-12-b12fc3dd&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 169.20000000006985,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-12-b12fc3dd&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 163.40000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-12-b12fc3dd&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 165.10000000009313,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-12-b12fc3dd&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 165.80000000004657,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374618,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143716,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 12,
+    "rid": "control-12-31e22d4b",
+    "wall_ms": 3904.848592999997,
+    "dcl": 208,
+    "load": 1471.2000000000698,
+    "responseEnd": 170.5,
+    "lcp": 1480,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 9.29999999993015,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-12-31e22d4b",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1281.0999999999767,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230293,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 12,
+    "rid": "web_gtm-12-d2afcbf3",
+    "wall_ms": 4667.248370999914,
+    "dcl": 209.80000000004657,
+    "load": 2227.600000000093,
+    "responseEnd": 167.80000000004657,
+    "lcp": 2240,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 476,
+    "tbt": 276,
+    "interactionDelay": 9.100000000093132,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-12-d2afcbf3&mode=direct",
+        "transferSize": 12692,
+        "encodedBodySize": 12392,
+        "duration": 278.0999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-12-d2afcbf3",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2039.0999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-12-d2afcbf3&mode=direct&vendor=1",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 950.6999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-12-d2afcbf3&mode=direct&vendor=2",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 958.2999999999302,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-12-d2afcbf3&mode=direct&vendor=3",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 964.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-12-d2afcbf3&mode=direct&vendor=4",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 972.0999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-12-d2afcbf3&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 180,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-12-d2afcbf3&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 176,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-12-d2afcbf3&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 162.30000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-12-d2afcbf3&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 177.90000000002328,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374548,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143661,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 12,
+    "rid": "sgtm_consolidated-12-f35b27c1",
+    "wall_ms": 4012.5155910000103,
+    "dcl": 210.70000000006985,
+    "load": 1568.9000000000233,
+    "responseEnd": 169.5,
+    "lcp": 1580,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 8.29999999993015,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-12-f35b27c1",
+        "transferSize": 16855,
+        "encodedBodySize": 16555,
+        "duration": 323.29999999993015,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-12-f35b27c1",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1378.5,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-12-f35b27c1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 175,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247285,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16772,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 13,
+    "rid": "sgtm_consolidated-13-ed3b7db3",
+    "wall_ms": 4016.79548300001,
+    "dcl": 182.40000000002328,
+    "load": 1568.9000000000233,
+    "responseEnd": 170.30000000004657,
+    "lcp": 1576,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 7.299999999930151,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-13-ed3b7db3",
+        "transferSize": 16855,
+        "encodedBodySize": 16555,
+        "duration": 319.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-13-ed3b7db3",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1377.5,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-13-ed3b7db3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.70000000006985,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247285,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16772,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 13,
+    "rid": "control-13-c2e1233e",
+    "wall_ms": 3898.608817999957,
+    "dcl": 222.69999999995343,
+    "load": 1457,
+    "responseEnd": 169.09999999997672,
+    "lcp": 1468,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 6.200000000069849,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-13-c2e1233e",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1278.9000000000233,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230293,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 13,
+    "rid": "web_gtm-13-9ad484cb",
+    "wall_ms": 4658.306958000026,
+    "dcl": 217.10000000009313,
+    "load": 2229,
+    "responseEnd": 169.10000000009313,
+    "lcp": 2248,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 458,
+    "tbt": 258,
+    "interactionDelay": 7.900000000023283,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-13-9ad484cb&mode=direct",
+        "transferSize": 12692,
+        "encodedBodySize": 12392,
+        "duration": 274.19999999995343,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-13-9ad484cb",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2034.5999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-13-9ad484cb&mode=direct&vendor=1",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 948.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-13-9ad484cb&mode=direct&vendor=2",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 956.7999999999302,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-13-9ad484cb&mode=direct&vendor=3",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 963,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-13-9ad484cb&mode=direct&vendor=4",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 970.1000000000931,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-13-9ad484cb&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 181.40000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-13-9ad484cb&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 168.60000000009313,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-13-9ad484cb&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 181.90000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-13-9ad484cb&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 173.20000000006985,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374548,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143661,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 13,
+    "rid": "sgtm_proxy_only-13-3392b767",
+    "wall_ms": 4658.24752900005,
+    "dcl": 199.29999999993015,
+    "load": 2221,
+    "responseEnd": 168.39999999990687,
+    "lcp": 2236,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 468,
+    "tbt": 268,
+    "interactionDelay": 9.800000000046566,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-13-3392b767&mode=proxy",
+        "transferSize": 12699,
+        "encodedBodySize": 12399,
+        "duration": 276.29999999993015,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-13-3392b767",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2035.7999999999302,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-13-3392b767&mode=proxy&vendor=1",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 950.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-13-3392b767&mode=proxy&vendor=2",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 957.6999999999534,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-13-3392b767&mode=proxy&vendor=3",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 964.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-13-3392b767&mode=proxy&vendor=4",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 972.2000000000698,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-13-3392b767&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 166,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-13-3392b767&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.80000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-13-3392b767&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 179.5,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-13-3392b767&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.19999999995343,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374618,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143716,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 14,
+    "rid": "sgtm_proxy_only-14-f5b78676",
+    "wall_ms": 4692.224558000021,
+    "dcl": 203.69999999995343,
+    "load": 2221.5,
+    "responseEnd": 169.80000000004657,
+    "lcp": 2240,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 486,
+    "tbt": 286,
+    "interactionDelay": 7.399999999906868,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-14-f5b78676&mode=proxy",
+        "transferSize": 12699,
+        "encodedBodySize": 12399,
+        "duration": 273.69999999995343,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-14-f5b78676",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2035.0999999999767,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-14-f5b78676&mode=proxy&vendor=1",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 952.7999999999302,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-14-f5b78676&mode=proxy&vendor=2",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 959.8000000000466,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-14-f5b78676&mode=proxy&vendor=3",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 967.0999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-14-f5b78676&mode=proxy&vendor=4",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 972.8999999999069,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-14-f5b78676&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 179.90000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-14-f5b78676&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 179.39999999990687,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-14-f5b78676&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 172.60000000009313,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-14-f5b78676&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 177.60000000009313,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374618,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143716,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 14,
+    "rid": "web_gtm-14-1757aeb4",
+    "wall_ms": 4688.803703000076,
+    "dcl": 207,
+    "load": 2223,
+    "responseEnd": 169.70000000006985,
+    "lcp": 2240,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 457,
+    "tbt": 257,
+    "interactionDelay": 8,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-14-1757aeb4&mode=direct",
+        "transferSize": 12692,
+        "encodedBodySize": 12392,
+        "duration": 273.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-14-1757aeb4",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2034,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-14-1757aeb4&mode=direct&vendor=1",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 951.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-14-1757aeb4&mode=direct&vendor=2",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 958.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-14-1757aeb4&mode=direct&vendor=3",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 965.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-14-1757aeb4&mode=direct&vendor=4",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 972.8000000000466,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-14-1757aeb4&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.09999999997672,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-14-1757aeb4&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 181.80000000004657,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-14-1757aeb4&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.60000000009313,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-14-1757aeb4&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 165.59999999997672,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374548,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143661,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 14,
+    "rid": "control-14-693f5aec",
+    "wall_ms": 3909.3212390000645,
+    "dcl": 192.90000000002328,
+    "load": 1469.9000000000233,
+    "responseEnd": 170.19999999995343,
+    "lcp": 1484,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 9.400000000023283,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-14-693f5aec",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1281,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230293,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 14,
+    "rid": "sgtm_consolidated-14-c21daf1a",
+    "wall_ms": 3989.539581000031,
+    "dcl": 189.30000000004657,
+    "load": 1563.7000000000698,
+    "responseEnd": 170.40000000002328,
+    "lcp": 1576,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 9.099999999976717,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-14-c21daf1a",
+        "transferSize": 16855,
+        "encodedBodySize": 16555,
+        "duration": 318.30000000004657,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-14-c21daf1a",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1373.6999999999534,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-14-c21daf1a",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 169.30000000004657,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247285,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16772,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "sgtm_proxy_only",
+    "iteration": 15,
+    "rid": "sgtm_proxy_only-15-c86ea1db",
+    "wall_ms": 4656.5627090000135,
+    "dcl": 186.60000000009313,
+    "load": 2222.5,
+    "responseEnd": 170.70000000006985,
+    "lcp": 2232,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 465,
+    "tbt": 265,
+    "interactionDelay": 9.099999999976717,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=sgtm_proxy_only-15-c86ea1db&mode=proxy",
+        "transferSize": 12699,
+        "encodedBodySize": 12399,
+        "duration": 274.80000000004657,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_proxy_only-15-c86ea1db",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2035.5,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-15-c86ea1db&mode=proxy&vendor=1",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 953.7999999999302,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-15-c86ea1db&mode=proxy&vendor=2",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 959.5999999999767,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-15-c86ea1db&mode=proxy&vendor=3",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 966.4000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=sgtm_proxy_only-15-c86ea1db&mode=proxy&vendor=4",
+        "transferSize": 32858,
+        "encodedBodySize": 32558,
+        "duration": 973.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-15-c86ea1db&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.40000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-15-c86ea1db&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 173.79999999993015,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-15-c86ea1db&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 165.90000000002328,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/proxy?rid=sgtm_proxy_only-15-c86ea1db&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 162.40000000002328,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374618,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143716,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy",
+      "/collect/proxy"
+    ]
+  },
+  {
+    "variant": "sgtm_consolidated",
+    "iteration": 15,
+    "rid": "sgtm_consolidated-15-2d19be11",
+    "wall_ms": 4001.0689949999687,
+    "dcl": 203.19999999995343,
+    "load": 1560.1999999999534,
+    "responseEnd": 168.5,
+    "lcp": 1572,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 7,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/dispatcher.js?rid=sgtm_consolidated-15-2d19be11",
+        "transferSize": 16855,
+        "encodedBodySize": 16555,
+        "duration": 318.5,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=sgtm_consolidated-15-2d19be11",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1375.2000000000698,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/collect/sgtm?rid=sgtm_consolidated-15-2d19be11",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 172.29999999993015,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 4,
+    "failed_request_count": 0,
+    "transfer_bytes": 247285,
+    "js_request_count": 1,
+    "js_transfer_bytes": 16772,
+    "browser_event_request_count_cdp": 1,
+    "server_browser_event_requests": 1,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/collect/sgtm"
+    ]
+  },
+  {
+    "variant": "control",
+    "iteration": 15,
+    "rid": "control-15-4b2233f1",
+    "wall_ms": 3901.1926270000004,
+    "dcl": 207.59999999997672,
+    "load": 1471.9000000000233,
+    "responseEnd": 169.90000000002328,
+    "lcp": 1488,
+    "cls": 0,
+    "longTaskCount": 0,
+    "longTaskDuration": 0,
+    "tbt": 0,
+    "interactionDelay": 10.100000000093132,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=control-15-4b2233f1",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 1283,
+        "initiatorType": "img"
+      }
+    ],
+    "request_count": 2,
+    "failed_request_count": 0,
+    "transfer_bytes": 230293,
+    "js_request_count": 0,
+    "js_transfer_bytes": 0,
+    "browser_event_request_count_cdp": 0,
+    "server_browser_event_requests": 0,
+    "logical_destination_deliveries": 0,
+    "server_event_paths": []
+  },
+  {
+    "variant": "web_gtm",
+    "iteration": 15,
+    "rid": "web_gtm-15-4b2f43a2",
+    "wall_ms": 4656.859919999988,
+    "dcl": 184.19999999995343,
+    "load": 2218.9000000000233,
+    "responseEnd": 167.79999999993015,
+    "lcp": 2228,
+    "cls": 0,
+    "longTaskCount": 4,
+    "longTaskDuration": 440,
+    "tbt": 240,
+    "interactionDelay": 9.400000000023283,
+    "errors": [],
+    "resourceEntries": [
+      {
+        "name": "http://127.0.0.1:8765/assets/web-container.js?rid=web_gtm-15-4b2f43a2&mode=direct",
+        "transferSize": 12692,
+        "encodedBodySize": 12392,
+        "duration": 278.20000000006985,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/hero.jpg?rid=web_gtm-15-4b2f43a2",
+        "transferSize": 226350,
+        "encodedBodySize": 226050,
+        "duration": 2035.3999999999069,
+        "initiatorType": "img"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-15-4b2f43a2&mode=direct&vendor=1",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 947.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-15-4b2f43a2&mode=direct&vendor=2",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 955.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-15-4b2f43a2&mode=direct&vendor=3",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 961.9000000000233,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/assets/vendor.js?rid=web_gtm-15-4b2f43a2&mode=direct&vendor=4",
+        "transferSize": 32846,
+        "encodedBodySize": 32546,
+        "duration": 969.2000000000698,
+        "initiatorType": "script"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-15-4b2f43a2&vendor=1",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 172.5,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-15-4b2f43a2&vendor=2",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.5,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-15-4b2f43a2&vendor=3",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 167.79999999993015,
+        "initiatorType": "beacon"
+      },
+      {
+        "name": "http://127.0.0.1:8765/third-party/collect?rid=web_gtm-15-4b2f43a2&vendor=4",
+        "transferSize": 300,
+        "encodedBodySize": 0,
+        "duration": 170.09999999997672,
+        "initiatorType": "beacon"
+      }
+    ],
+    "request_count": 11,
+    "failed_request_count": 0,
+    "transfer_bytes": 374548,
+    "js_request_count": 5,
+    "js_transfer_bytes": 143661,
+    "browser_event_request_count_cdp": 4,
+    "server_browser_event_requests": 4,
+    "logical_destination_deliveries": 4,
+    "server_event_paths": [
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect",
+      "/third-party/collect"
+    ]
+  }
+]

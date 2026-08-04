@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-08-04",
+  "purpose": "Repository package assembly and validation; not the original 31 July benchmark environment.",
+  "python": "3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]",
+  "platform": "Linux-6.12.13-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+  "packages": {
+    "aiohttp": "3.13.3",
+    "Pillow": "12.2.0",
+    "playwright": "1.57.0",
+    "jsonschema": "4.26.0",
+    "PyYAML": "6.0.3"
+  },
+  "browser_smoke_test": {
+    "status": "blocked_by_host_policy",
+    "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+    "detail": "The package host applies a managed Chromium URLBlocklist. Downloading Playwright Chromium was also unavailable in the sandbox. Static validation and unit tests were completed; CI is configured to run the smoke test on a standard GitHub runner."
+  }
+}

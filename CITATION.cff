@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Cite the repository for code and data; cite the companion Metricfixer article for editorial interpretation."
+title: "Web GTM vs Server-Side GTM: Reproducible Benchmark"
+type: software
+authors:
+  - name: "Metricfixer"
+    website: "https://metricfixer.com/"
+version: 1.0.0
+date-released: 2026-08-04
+url: "https://github.com/metricfixerSupportServices/server-side-gtm-benchmark"
+repository-code: "https://github.com/metricfixerSupportServices/server-side-gtm-benchmark"
+license: MIT
+keywords:
+  - server-side GTM
+  - Google Tag Manager
+  - server-side tagging
+  - web performance
+  - conversion tracking
+  - Playwright
+preferred-citation:
+  type: article
+  title: "Server-Side GTM Benchmarked: What It Really Improves—and What It Does Not"
+  authors:
+    - name: "Metricfixer"
+  year: 2026
+  url: "https://metricfixer.com/publications/analytics-conversion-tracking/server-side-gtm-real-gains-marketing-myths-benchmark"
